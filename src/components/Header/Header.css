@@ -1,10 +1,9 @@
 .navbar{
-  height: 4rem;
-  background: #000;
-
+  height: 3rem;
+  background: rgb(201, 132, 132);
 }
-.navbar a{
-  text-decoration: none;
+.nav-link{
   color: white;
-  margin: 20px;
+  font-size: 24px;
+  text-decoration: none;
 }

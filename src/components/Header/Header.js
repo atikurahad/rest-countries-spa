@@ -6,11 +6,23 @@ import './Header.css'
 const Header = () => {
   return (
     <>
-      <nav className="nabvar">
-        <Link to="/home"> Home </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/qna"> QnA </Link>
-        <Link to="/detail"> Detail </Link>
+      <nav className="navbar">
+        <Link className="nav-link" to="/home">
+          {" "}
+          Home{" "}
+        </Link>
+        <Link className="nav-link" to="/about">
+          {" "}
+          About{" "}
+        </Link>
+        <Link className="nav-link" to="/qna">
+          {" "}
+          QnA{" "}
+        </Link>
+        <Link className="nav-link" to="/detail">
+          {" "}
+          Detail{" "}
+        </Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home></Home>}>
