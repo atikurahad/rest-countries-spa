@@ -1,0 +1,26 @@
+.flag{
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: 8px;
+  height: 15rem;
+  width: 20rem;
+}
+.country-card{
+  height: 29rem;
+  width: fit-content;
+border-radius: 12px;
+  border: 2px solid rgb(137, 108, 108);
+}
+.capital{
+  font-size: 20px;
+  font-family: monospace;
+  color: rgb(255, 0, 13);
+}
+.country-detail{
+  text-align: center;
+}
+.region{
+  color: #000095;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
